@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         
+    </head>
+    
+    <body class="bdy">
+         <div class="cont2">
+           <div class="forms">
+               <div class="form">
+                  <span class="tit">Verify</span>
+                 
+                    <form action="edit.php" method="post">
+                      <div class="input-field">
+                           <i class="uil uil-eye-slash showHideP"></i> 
+                       <input type="email" placeholder="enter email address" name="mail" required>
+                       <i class="fa-solid fa-envelope"></i>
+                  
+           </div>
+                     
+                       <div class="input-field">
+                      
+                       <input type="password" class="password" placeholder="enter password" name="pass3" required>
+                      
+                       <i class="fa-solid fa-eye"></i>
+                       <i class="fa-solid fa-eye-slash " id="pw_hide"></i>      
+                     </div>
+                     
+                       <div class="checkbox-text">
+                          <div class="checkbox-content">
+                           
+                          
+                          </div>
+                          <a href="#" class="text"> </a>
+                       </div>
+                      </br></br>
+                       <div class="input-box5">
+                        <label for="attribute">Attribute to Edit:</label>
+                             
+                            <div class="input-field2">
+                                 <select class="selecting" name="attribute">
+                                  <option selected disabled>Select an option</option>
+                                   
+                                   <option value="fullName">fullName</option>
+                                   <option value="phoneNumber">phoneNumber</option>
+                                  <option value="shopName">shopName</option>
+                                  <option value="buildingNumber">buildingNumber</option>
+                                  <option value="businessType">businessType</option>
+                                  <option value="area">area</option>
+                                  <option value="landmark">landmark</option>
+                                  <option value="email">email</option>
+                                  <option value="password">password</option>
+                              </select>
+                            </div>
+                        </div>
+                      </br></br>
+                       
+
+                      
+                        <div class="required">
+                        <span class="details">New Entry</span>
+                        <input type="text" id="new_value" placeholder="Give the new entry" name="new_value" required>
+                      </div>
+                      <div class="btn">
+                      
+                        <input type="submit" value="Submit">
+                    
+                     </div>
+                     
+                    </form>
+               </div>
+           </div>
+         </div>
+      <script src="login.js"></script>
+    </body>
+</html>
