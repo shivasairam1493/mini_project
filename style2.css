@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Apply responsive styles */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
+.card-content {
+    background-color: #fff9c4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-content div {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-content hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.input-box{
+    margin-bottom:15px;
+    width:calc(100%/20px);
+ }
